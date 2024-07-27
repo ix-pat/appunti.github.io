@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Capitolo 15 Test per una media e una proporzione | Appunti di Statistica</title>
   <meta name="description" content="Appunti sparsi" />
-  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Capitolo 15 Test per una media e una proporzione | Appunti di Statistica" />
   <meta property="og:type" content="book" />
@@ -51,13 +51,11 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-<script src="libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 <style type="text/css">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -138,12 +136,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="http://dep115.economia.unimore.it/">Statistica Home</a></li>
+<li><a href="http://frederic.economia.unimore.it/">Statistica Home</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Appunti di Statistica</a></li>
 <li class="chapter" data-level="" data-path="avvertenza.html"><a href="avvertenza.html"><i class="fa fa-check"></i>Avvertenza</a></li>
-<li class="chapter" data-level="" data-path="introduzione.html"><a href="introduzione.html"><i class="fa fa-check"></i>Introduzione</a></li>
 <li class="chapter" data-level="1" data-path="i-fenomeni-collettivi.html"><a href="i-fenomeni-collettivi.html"><i class="fa fa-check"></i><b>1</b> I Fenomeni Collettivi</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="i-fenomeni-collettivi.html"><a href="i-fenomeni-collettivi.html#dati"><i class="fa fa-check"></i><b>1.1</b> I Dati</a></li>
@@ -215,7 +211,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.4.1" data-path="mediana-percentili-e-moda.html"><a href="mediana-percentili-e-moda.html#la-moda-per-dati-raccolti-in-classi"><i class="fa fa-check"></i><b>4.4.1</b> La Moda per dati raccolti in classi</a></li>
 </ul></li>
 <li class="chapter" data-level="4.5" data-path="mediana-percentili-e-moda.html"><a href="mediana-percentili-e-moda.html#relazione-tra-media-moda-e-mediana"><i class="fa fa-check"></i><b>4.5</b> Relazione tra Media, Moda e Mediana</a></li>
-<li class="chapter" data-level="4.6" data-path="mediana-percentili-e-moda.html"><a href="mediana-percentili-e-moda.html#istogramma-e-percentili"><i class="fa fa-check"></i><b>4.6</b> Istogramma e Percentili</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="cenni-di-teoria-della-probabilità.html"><a href="cenni-di-teoria-della-probabilità.html"><i class="fa fa-check"></i><b>5</b> Cenni di Teoria della probabilità</a>
 <ul>
@@ -263,45 +258,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.6.1" data-path="variabili-casuali.html"><a href="variabili-casuali.html#valore-atesso-e-varianza-di-una-vc-continua"><i class="fa fa-check"></i><b>6.6.1</b> Valore Atesso e Varianza di una VC continua</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html"><i class="fa fa-check"></i><b>7</b> Variabili Casuali di particolare interesse</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#la-vc-di-bernoulli"><i class="fa fa-check"></i><b>7.1</b> La VC di Bernoulli</a>
-<ul>
-<li class="chapter" data-level="7.1.1" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#valore-atteso-e-varianza"><i class="fa fa-check"></i><b>7.1.1</b> Valore Atteso e Varianza</a></li>
-<li class="chapter" data-level="7.1.2" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#in-sintesi"><i class="fa fa-check"></i><b>7.1.2</b> In Sintesi</a></li>
-</ul></li>
-<li class="chapter" data-level="7.2" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#la-vc-binomiale"><i class="fa fa-check"></i><b>7.2</b> La VC Binomiale</a>
-<ul>
-<li class="chapter" data-level="7.2.1" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#la-vc-binomiale-attraverso-un-esempio"><i class="fa fa-check"></i><b>7.2.1</b> La VC Binomiale attraverso un esempio</a></li>
-<li class="chapter" data-level="7.2.2" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#il-modello"><i class="fa fa-check"></i><b>7.2.2</b> Il modello</a></li>
-<li class="chapter" data-level="7.2.3" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#dimostrazione-del-valore-atteso-e-della-varianza"><i class="fa fa-check"></i><b>7.2.3</b> Dimostrazione del Valore atteso e della Varianza</a></li>
-<li class="chapter" data-level="7.2.4" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#esempio"><i class="fa fa-check"></i><b>7.2.4</b> Esempio</a></li>
-<li class="chapter" data-level="7.2.5" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#proprietà"><i class="fa fa-check"></i><b>7.2.5</b> Proprietà</a></li>
-<li class="chapter" data-level="7.2.6" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#in-sintesi-1"><i class="fa fa-check"></i><b>7.2.6</b> In Sintesi</a></li>
-</ul></li>
-<li class="chapter" data-level="7.3" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#la-vc-di-poisson"><i class="fa fa-check"></i><b>7.3</b> La VC di Poisson</a>
-<ul>
-<li class="chapter" data-level="7.3.1" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#obiettivo"><i class="fa fa-check"></i><b>7.3.1</b> Obiettivo</a></li>
-<li class="chapter" data-level="7.3.2" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#storia"><i class="fa fa-check"></i><b>7.3.2</b> Storia</a></li>
-<li class="chapter" data-level="7.3.3" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#il-modello-1"><i class="fa fa-check"></i><b>7.3.3</b> Il modello</a></li>
-<li class="chapter" data-level="7.3.4" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#dimostrazione-del-valore-atteso-e-della-varianza-della-poisson"><i class="fa fa-check"></i><b>7.3.4</b> Dimostrazione del Valore atteso e della Varianza della Poisson</a></li>
-<li class="chapter" data-level="7.3.5" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#esempio-1"><i class="fa fa-check"></i><b>7.3.5</b> Esempio</a></li>
-<li class="chapter" data-level="7.3.6" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#proprietà-della-poisson"><i class="fa fa-check"></i><b>7.3.6</b> Proprietà della Poisson</a></li>
-<li class="chapter" data-level="7.3.7" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#in-sintesi-2"><i class="fa fa-check"></i><b>7.3.7</b> In Sintesi</a></li>
-</ul></li>
-<li class="chapter" data-level="7.4" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#la-vc-normale"><i class="fa fa-check"></i><b>7.4</b> La VC Normale</a>
-<ul>
-<li class="chapter" data-level="7.4.1" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#obiettivo-1"><i class="fa fa-check"></i><b>7.4.1</b> Obiettivo</a></li>
-<li class="chapter" data-level="7.4.2" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#storia-1"><i class="fa fa-check"></i><b>7.4.2</b> Storia</a></li>
-<li class="chapter" data-level="7.4.3" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#il-modello-2"><i class="fa fa-check"></i><b>7.4.3</b> Il modello</a></li>
-<li class="chapter" data-level="7.4.4" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#proprietà-della-normale"><i class="fa fa-check"></i><b>7.4.4</b> Proprietà della Normale</a></li>
-<li class="chapter" data-level="7.4.5" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#la-normale-standard"><i class="fa fa-check"></i><b>7.4.5</b> La normale standard</a></li>
-<li class="chapter" data-level="7.4.6" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#la-funzione-di-ripartizione-della-normale-standard"><i class="fa fa-check"></i><b>7.4.6</b> La Funzione di Ripartizione della Normale Standard</a></li>
-<li class="chapter" data-level="7.4.7" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#la-tavole-statistiche-della-z"><i class="fa fa-check"></i><b>7.4.7</b> La tavole Statistiche della <span class="math inline">\(Z\)</span></a></li>
-<li class="chapter" data-level="7.4.8" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#in-sintesi-3"><i class="fa fa-check"></i><b>7.4.8</b> In Sintesi</a></li>
-<li class="chapter" data-level="7.4.9" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html#esempio-2"><i class="fa fa-check"></i><b>7.4.9</b> Esempio</a></li>
-</ul></li>
-</ul></li>
+<li class="chapter" data-level="7" data-path="variabili-casuali-di-particolare-interesse.html"><a href="variabili-casuali-di-particolare-interesse.html"><i class="fa fa-check"></i><b>7</b> Variabili Casuali di particolare interesse</a></li>
 <li class="chapter" data-level="8" data-path="il-teorema-del-limite-centrale.html"><a href="il-teorema-del-limite-centrale.html"><i class="fa fa-check"></i><b>8</b> Il Teorema del Limite Centrale</a>
 <ul>
 <li class="chapter" data-level="8.1" data-path="il-teorema-del-limite-centrale.html"><a href="il-teorema-del-limite-centrale.html#successioni-di-vc"><i class="fa fa-check"></i><b>8.1</b> Successioni di VC</a></li>
@@ -401,7 +358,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="13" data-path="stima-intervallare.html"><a href="stima-intervallare.html"><i class="fa fa-check"></i><b>13</b> Stima Intervallare</a>
 <ul>
-<li class="chapter" data-level="13.1" data-path="stima-intervallare.html"><a href="stima-intervallare.html#obiettivo-2"><i class="fa fa-check"></i><b>13.1</b> Obiettivo</a></li>
+<li class="chapter" data-level="13.1" data-path="stima-intervallare.html"><a href="stima-intervallare.html#obiettivo"><i class="fa fa-check"></i><b>13.1</b> Obiettivo</a></li>
 <li class="chapter" data-level="13.2" data-path="stima-intervallare.html"><a href="stima-intervallare.html#il-contesto-probabilistico"><i class="fa fa-check"></i><b>13.2</b> Il Contesto Probabilistico</a>
 <ul>
 <li class="chapter" data-level="13.2.1" data-path="stima-intervallare.html"><a href="stima-intervallare.html#un-intervallo-per-hat-mu"><i class="fa fa-check"></i><b>13.2.1</b> Un intervallo per <span class="math inline">\(\hat \mu\)</span></a></li>
@@ -455,29 +412,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="15" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html"><i class="fa fa-check"></i><b>15</b> Test per una media e una proporzione</a>
 <ul>
-<li class="chapter" data-level="15.1" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-destra-sigma2-noto"><i class="fa fa-check"></i><b>15.1</b> Test sulla media, ipotesi unilaterale destra, <span class="math inline">\(\sigma^2\)</span> noto</a></li>
-<li class="chapter" data-level="15.2" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-sigma2-noto-vari-livelli-di-alpha"><i class="fa fa-check"></i><b>15.2</b> Test sulla media, <span class="math inline">\(\sigma^2\)</span> noto, vari livelli di <span class="math inline">\(\alpha\)</span></a></li>
-<li class="chapter" data-level="15.3" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue"><i class="fa fa-check"></i><b>15.3</b> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span></a>
+<li class="chapter" data-level="15.1" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-sigma2-noto"><i class="fa fa-check"></i><b>15.1</b> Test sulla media, <span class="math inline">\(\sigma^2\)</span> noto</a>
 <ul>
-<li class="chapter" data-level="15.3.1" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#lettura-del-p_textvalue"><i class="fa fa-check"></i><b>15.3.1</b> Lettura del <span class="math inline">\(p_\text{value}\)</span></a></li>
+<li class="chapter" data-level="15.1.1" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-destra-sigma2-noto"><i class="fa fa-check"></i><b>15.1.1</b> Test sulla media, ipotesi unilaterale destra, <span class="math inline">\(\sigma^2\)</span> noto</a></li>
+<li class="chapter" data-level="15.1.2" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-sigma2-noto-vari-livelli-di-alpha"><i class="fa fa-check"></i><b>15.1.2</b> Test sulla media, <span class="math inline">\(\sigma^2\)</span> noto, vari livelli di <span class="math inline">\(\alpha\)</span></a></li>
+<li class="chapter" data-level="15.1.3" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue"><i class="fa fa-check"></i><b>15.1.3</b> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span></a></li>
+<li class="chapter" data-level="15.1.4" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#lettura-del-p_textvalue"><i class="fa fa-check"></i><b>15.1.4</b> Lettura del <span class="math inline">\(p_\text{value}\)</span></a></li>
+<li class="chapter" data-level="15.1.5" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-noto"><i class="fa fa-check"></i><b>15.1.5</b> Test sulla media, ipotesi unilaterale sinistra, <span class="math inline">\(\sigma^2\)</span> noto</a></li>
+<li class="chapter" data-level="15.1.6" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-bilaterale-sigma2-noto"><i class="fa fa-check"></i><b>15.1.6</b> Test sulla media, ipotesi bilaterale, <span class="math inline">\(\sigma^2\)</span> noto</a></li>
 </ul></li>
-<li class="chapter" data-level="15.4" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-noto"><i class="fa fa-check"></i><b>15.4</b> Test sulla media, ipotesi unilaterale sinistra, <span class="math inline">\(\sigma^2\)</span> noto</a>
+<li class="chapter" data-level="15.2" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#significatività-non-fissata"><i class="fa fa-check"></i><b>15.2</b> Significatività non fissata</a></li>
+<li class="chapter" data-level="15.3" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-per-mu-sigma-incognita"><i class="fa fa-check"></i><b>15.3</b> Test per <span class="math inline">\(\mu\)</span>, <span class="math inline">\(\sigma\)</span> incognita</a>
 <ul>
-<li class="chapter" data-level="15.4.1" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue-1"><i class="fa fa-check"></i><b>15.4.1</b> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span></a></li>
+<li class="chapter" data-level="15.3.1" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-destra-sigma2-incognito"><i class="fa fa-check"></i><b>15.3.1</b> Test sulla media, ipotesi unilaterale destra, <span class="math inline">\(\sigma^2\)</span> incognito</a></li>
+<li class="chapter" data-level="15.3.2" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-incognito"><i class="fa fa-check"></i><b>15.3.2</b> Test sulla media, ipotesi unilaterale sinistra, <span class="math inline">\(\sigma^2\)</span> incognito</a></li>
+<li class="chapter" data-level="15.3.3" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-bilaterale-sigma2-incognito"><i class="fa fa-check"></i><b>15.3.3</b> Test sulla media, ipotesi bilaterale, <span class="math inline">\(\sigma^2\)</span> incognito</a></li>
+<li class="chapter" data-level="15.3.4" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#significatività-non-fissata-1"><i class="fa fa-check"></i><b>15.3.4</b> Significatività non fissata</a></li>
 </ul></li>
-<li class="chapter" data-level="15.5" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-bilaterale-sigma2-noto"><i class="fa fa-check"></i><b>15.5</b> Test sulla media, ipotesi bilaterale, <span class="math inline">\(\sigma^2\)</span> noto</a>
-<ul>
-<li class="chapter" data-level="15.5.1" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue-2"><i class="fa fa-check"></i><b>15.5.1</b> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span></a></li>
-</ul></li>
-<li class="chapter" data-level="15.6" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-per-mu-sigma-incognita"><i class="fa fa-check"></i><b>15.6</b> Test per <span class="math inline">\(\mu\)</span>, <span class="math inline">\(\sigma\)</span> incognita</a>
-<ul>
-<li class="chapter" data-level="15.6.1" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-destra-sigma2-incognito"><i class="fa fa-check"></i><b>15.6.1</b> Test sulla media, ipotesi unilaterale destra, <span class="math inline">\(\sigma^2\)</span> incognito</a></li>
-<li class="chapter" data-level="15.6.2" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-incognito"><i class="fa fa-check"></i><b>15.6.2</b> Test sulla media, ipotesi unilaterale sinistra, <span class="math inline">\(\sigma^2\)</span> incognito</a></li>
-<li class="chapter" data-level="15.6.3" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-bilaterale-sigma2-incognito"><i class="fa fa-check"></i><b>15.6.3</b> Test sulla media, ipotesi bilaterale, <span class="math inline">\(\sigma^2\)</span> incognito</a></li>
-</ul></li>
-<li class="chapter" data-level="15.7" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#massima-verosimiglianza-e-test"><i class="fa fa-check"></i><b>15.7</b> Massima verosimiglianza e test</a></li>
-<li class="chapter" data-level="15.8" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-per-pi"><i class="fa fa-check"></i><b>15.8</b> Test per <span class="math inline">\(\pi\)</span></a></li>
-<li class="chapter" data-level="15.9" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#specchietto-finale-per-i-test-ad-un-campione"><i class="fa fa-check"></i><b>15.9</b> Specchietto Finale per i Test ad un Campione</a></li>
+<li class="chapter" data-level="15.4" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#massima-verosimiglianza-e-test"><i class="fa fa-check"></i><b>15.4</b> Massima verosimiglianza e test</a></li>
+<li class="chapter" data-level="15.5" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#test-per-pi"><i class="fa fa-check"></i><b>15.5</b> Test per <span class="math inline">\(\pi\)</span></a></li>
+<li class="chapter" data-level="15.6" data-path="test-per-una-media-e-una-proporzione.html"><a href="test-per-una-media-e-una-proporzione.html#specchietto-finale-per-i-test-ad-un-campione"><i class="fa fa-check"></i><b>15.6</b> Specchietto Finale per i Test ad un Campione</a></li>
 </ul></li>
 <li class="chapter" data-level="16" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html"><i class="fa fa-check"></i><b>16</b> Confronto tra due Popolazioni</a>
 <ul>
@@ -488,14 +442,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="16.1.3" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#stima-di-sigma_a-e-sigma_b"><i class="fa fa-check"></i><b>16.1.3</b> Stima di <span class="math inline">\(\sigma_A\)</span> e <span class="math inline">\(\sigma_B\)</span></a></li>
 <li class="chapter" data-level="16.1.4" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#ipotesi-1-omogeneità"><i class="fa fa-check"></i><b>16.1.4</b> Ipotesi 1: omogeneità</a></li>
 <li class="chapter" data-level="16.1.5" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#ipotesi-2-eterogeneità"><i class="fa fa-check"></i><b>16.1.5</b> Ipotesi 2: eterogeneità</a></li>
-<li class="chapter" data-level="16.1.6" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#esempio-3"><i class="fa fa-check"></i><b>16.1.6</b> Esempio</a></li>
-<li class="chapter" data-level="16.1.7" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#esempio-4"><i class="fa fa-check"></i><b>16.1.7</b> Esempio</a></li>
+<li class="chapter" data-level="16.1.6" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#esempio"><i class="fa fa-check"></i><b>16.1.6</b> Esempio</a></li>
+<li class="chapter" data-level="16.1.7" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#esempio-1"><i class="fa fa-check"></i><b>16.1.7</b> Esempio</a></li>
 </ul></li>
 <li class="chapter" data-level="16.2" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#test-per-due-proporzioni"><i class="fa fa-check"></i><b>16.2</b> Test per due proporzioni</a>
 <ul>
 <li class="chapter" data-level="16.2.1" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#il-contesto-probabilistico-2"><i class="fa fa-check"></i><b>16.2.1</b> Il contesto probabilistico</a></li>
 <li class="chapter" data-level="16.2.2" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#derivazione-della-statistica-test-1"><i class="fa fa-check"></i><b>16.2.2</b> Derivazione della statistica test</a></li>
-<li class="chapter" data-level="16.2.3" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#esempio-5"><i class="fa fa-check"></i><b>16.2.3</b> Esempio</a></li>
+<li class="chapter" data-level="16.2.3" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#esempio-2"><i class="fa fa-check"></i><b>16.2.3</b> Esempio</a></li>
 </ul></li>
 <li class="chapter" data-level="16.3" data-path="confronto-tra-due-popolazioni.html"><a href="confronto-tra-due-popolazioni.html#specchietto-finale-per-i-test-ad-due-campioni"><i class="fa fa-check"></i><b>16.3</b> Specchietto Finale per i Test ad Due Campioni</a></li>
 </ul></li>
@@ -581,7 +535,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="19.2.1" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#le-tavole-di-contingenza"><i class="fa fa-check"></i><b>19.2.1</b> Le tavole di contingenza</a></li>
 <li class="chapter" data-level="19.2.2" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#un-passo-indietro-il-concetto-di-indipendenza"><i class="fa fa-check"></i><b>19.2.2</b> Un passo indietro: il concetto di indipendenza</a></li>
 <li class="chapter" data-level="19.2.3" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#estensione-a-più-di-due-modalità"><i class="fa fa-check"></i><b>19.2.3</b> Estensione a più di due modalità</a></li>
-<li class="chapter" data-level="19.2.4" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#esempio-6"><i class="fa fa-check"></i><b>19.2.4</b> Esempio</a></li>
+<li class="chapter" data-level="19.2.4" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#esempio-3"><i class="fa fa-check"></i><b>19.2.4</b> Esempio</a></li>
 <li class="chapter" data-level="19.2.5" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#dalla-popolazione-al-campione"><i class="fa fa-check"></i><b>19.2.5</b> Dalla popolazione al campione</a></li>
 <li class="chapter" data-level="19.2.6" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#notazione-formale-per-le-tavole-di-contingenza"><i class="fa fa-check"></i><b>19.2.6</b> Notazione formale per le tavole di contingenza</a></li>
 <li class="chapter" data-level="19.2.7" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#le-frequenze-sono-stime-dei-pi"><i class="fa fa-check"></i><b>19.2.7</b> Le frequenze sono stime dei <span class="math inline">\(\pi\)</span></a></li>
@@ -591,7 +545,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="19.4" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#test-per-lipotesi-di-indipendenza"><i class="fa fa-check"></i><b>19.4</b> Test per l’ipotesi di indipendenza</a>
 <ul>
 <li class="chapter" data-level="19.4.1" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#la-statistica-test-chi2"><i class="fa fa-check"></i><b>19.4.1</b> La statistica test <span class="math inline">\(\chi^2\)</span></a></li>
-<li class="chapter" data-level="19.4.2" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#esempio-7"><i class="fa fa-check"></i><b>19.4.2</b> Esempio</a></li>
+<li class="chapter" data-level="19.4.2" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#esempio-4"><i class="fa fa-check"></i><b>19.4.2</b> Esempio</a></li>
 <li class="chapter" data-level="19.4.3" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#i-gradi-di-libertà"><i class="fa fa-check"></i><b>19.4.3</b> I gradi di libertà</a></li>
 </ul></li>
 <li class="chapter" data-level="19.5" data-path="il-test-chi-quadro.html"><a href="il-test-chi-quadro.html#misure-di-conformità"><i class="fa fa-check"></i><b>19.5</b> Misure di Conformità</a></li>
@@ -606,51 +560,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="20.1" data-path="richiami-sugli-operatori-sommatoria-e-produttorio.html"><a href="richiami-sugli-operatori-sommatoria-e-produttorio.html#operatore-sommatoria"><i class="fa fa-check"></i><b>20.1</b> Operatore Sommatoria</a></li>
 <li class="chapter" data-level="20.2" data-path="richiami-sugli-operatori-sommatoria-e-produttorio.html"><a href="richiami-sugli-operatori-sommatoria-e-produttorio.html#operatore-produttorio"><i class="fa fa-check"></i><b>20.2</b> Operatore Produttorio</a></li>
-</ul></li>
-<li class="chapter" data-level="21" data-path="richiami-di-calcolo-combinatorio.html"><a href="richiami-di-calcolo-combinatorio.html"><i class="fa fa-check"></i><b>21</b> Richiami di Calcolo Combinatorio</a>
+<li class="chapter" data-level="20.3" data-path="richiami-sugli-operatori-sommatoria-e-produttorio.html"><a href="richiami-sugli-operatori-sommatoria-e-produttorio.html#il-coefficiente-binomiale"><i class="fa fa-check"></i><b>20.3</b> Il coefficiente binomiale</a></li>
+<li class="chapter" data-level="20.4" data-path="richiami-sugli-operatori-sommatoria-e-produttorio.html"><a href="richiami-sugli-operatori-sommatoria-e-produttorio.html#richiami-sui-logaritmi"><i class="fa fa-check"></i><b>20.4</b> Richiami sui logaritmi</a></li>
+<li class="chapter" data-level="20.5" data-path="richiami-sugli-operatori-sommatoria-e-produttorio.html"><a href="richiami-sugli-operatori-sommatoria-e-produttorio.html#richiami-di-analisi"><i class="fa fa-check"></i><b>20.5</b> Richiami di Analisi</a>
 <ul>
-<li class="chapter" data-level="21.1" data-path="richiami-di-calcolo-combinatorio.html"><a href="richiami-di-calcolo-combinatorio.html#il-coefficiente-binomiale"><i class="fa fa-check"></i><b>21.1</b> Il coefficiente binomiale</a></li>
-</ul></li>
-<li class="chapter" data-level="22" data-path="richiami-di-matematica.html"><a href="richiami-di-matematica.html"><i class="fa fa-check"></i><b>22</b> Richiami di Matematica</a>
-<ul>
-<li class="chapter" data-level="22.1" data-path="richiami-di-matematica.html"><a href="richiami-di-matematica.html#richiami-sui-logaritmi"><i class="fa fa-check"></i><b>22.1</b> Richiami sui logaritmi</a></li>
-<li class="chapter" data-level="22.2" data-path="richiami-di-matematica.html"><a href="richiami-di-matematica.html#richiami-di-analisi"><i class="fa fa-check"></i><b>22.2</b> Richiami di Analisi</a>
-<ul>
-<li class="chapter" data-level="22.2.1" data-path="richiami-di-matematica.html"><a href="richiami-di-matematica.html#note-sulla-cardinalità-degli-insiemi"><i class="fa fa-check"></i><b>22.2.1</b> Note sulla cardinalità degli insiemi</a></li>
-<li class="chapter" data-level="22.2.2" data-path="richiami-di-matematica.html"><a href="richiami-di-matematica.html#funzioni-reali-e-loro-derivate"><i class="fa fa-check"></i><b>22.2.2</b> Funzioni Reali e loro derivate</a></li>
+<li class="chapter" data-level="20.5.1" data-path="richiami-sugli-operatori-sommatoria-e-produttorio.html"><a href="richiami-sugli-operatori-sommatoria-e-produttorio.html#note-sulla-cardinalità-degli-insiemi"><i class="fa fa-check"></i><b>20.5.1</b> Note sulla cardinalità degli insiemi</a></li>
+<li class="chapter" data-level="20.5.2" data-path="richiami-sugli-operatori-sommatoria-e-produttorio.html"><a href="richiami-sugli-operatori-sommatoria-e-produttorio.html#funzioni-reali-e-loro-derivate"><i class="fa fa-check"></i><b>20.5.2</b> Funzioni Reali e loro derivate</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="23" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html"><i class="fa fa-check"></i><b>23</b> Com’è Realizzato il Libro</a>
+<li class="chapter" data-level="21" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html"><i class="fa fa-check"></i><b>21</b> Com’è Realizzato il Libro</a>
 <ul>
-<li class="chapter" data-level="23.1" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#r-a-language-and-environment-for-statistical-computing"><i class="fa fa-check"></i><b>23.1</b> R: A Language and Environment for Statistical Computing</a>
+<li class="chapter" data-level="21.1" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#r-a-language-and-environment-for-statistical-computing"><i class="fa fa-check"></i><b>21.1</b> R: A Language and Environment for Statistical Computing</a>
 <ul>
-<li class="chapter" data-level="23.1.1" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#r-come-calcolatrice"><i class="fa fa-check"></i><b>23.1.1</b> R come calcolatrice</a></li>
-<li class="chapter" data-level="23.1.2" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#operatori-speciali"><i class="fa fa-check"></i><b>23.1.2</b> Operatori Speciali</a></li>
-<li class="chapter" data-level="23.1.3" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#vettori-e-matrici"><i class="fa fa-check"></i><b>23.1.3</b> Vettori e matrici</a></li>
-<li class="chapter" data-level="23.1.4" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#liste-e-dataframe"><i class="fa fa-check"></i><b>23.1.4</b> Liste e dataframe</a></li>
-<li class="chapter" data-level="23.1.5" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#classi-e-oggetti"><i class="fa fa-check"></i><b>23.1.5</b> Classi e Oggetti</a></li>
-<li class="chapter" data-level="23.1.6" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#i-grafici"><i class="fa fa-check"></i><b>23.1.6</b> I grafici</a></li>
-<li class="chapter" data-level="23.1.7" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#le-funzioni-in-r"><i class="fa fa-check"></i><b>23.1.7</b> Le Funzioni in R</a></li>
+<li class="chapter" data-level="21.1.1" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#r-come-calcolatrice"><i class="fa fa-check"></i><b>21.1.1</b> R come calcolatrice</a></li>
+<li class="chapter" data-level="21.1.2" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#operatori-speciali"><i class="fa fa-check"></i><b>21.1.2</b> Operatori Speciali</a></li>
+<li class="chapter" data-level="21.1.3" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#vettori-e-matrici"><i class="fa fa-check"></i><b>21.1.3</b> Vettori e matrici</a></li>
+<li class="chapter" data-level="21.1.4" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#liste-e-dataframe"><i class="fa fa-check"></i><b>21.1.4</b> Liste e dataframe</a></li>
+<li class="chapter" data-level="21.1.5" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#classi-e-oggetti"><i class="fa fa-check"></i><b>21.1.5</b> Classi e Oggetti</a></li>
+<li class="chapter" data-level="21.1.6" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#i-grafici"><i class="fa fa-check"></i><b>21.1.6</b> I grafici</a></li>
+<li class="chapter" data-level="21.1.7" data-path="comè-realizzato-il-libro.html"><a href="comè-realizzato-il-libro.html#le-funzioni-in-r"><i class="fa fa-check"></i><b>21.1.7</b> Le Funzioni in R</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="24" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html"><i class="fa fa-check"></i><b>24</b> Funzioni usate nel libro</a>
+<li class="chapter" data-level="22" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html"><i class="fa fa-check"></i><b>22</b> Funzioni usate nel libro</a>
 <ul>
-<li class="chapter" data-level="24.1" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#istogramma"><i class="fa fa-check"></i><b>24.1</b> Istogramma</a></li>
-<li class="chapter" data-level="24.2" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#probabilità"><i class="fa fa-check"></i><b>24.2</b> Probabilità</a>
+<li class="chapter" data-level="22.1" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#istogramma"><i class="fa fa-check"></i><b>22.1</b> Istogramma</a></li>
+<li class="chapter" data-level="22.2" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#probabilità"><i class="fa fa-check"></i><b>22.2</b> Probabilità</a>
 <ul>
-<li class="chapter" data-level="24.2.1" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#tavole-della-somma"><i class="fa fa-check"></i><b>24.2.1</b> Tavole della somma</a></li>
-<li class="chapter" data-level="24.2.2" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#binomiale"><i class="fa fa-check"></i><b>24.2.2</b> Binomiale</a></li>
-<li class="chapter" data-level="24.2.3" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#poisson"><i class="fa fa-check"></i><b>24.2.3</b> Poisson</a></li>
-<li class="chapter" data-level="24.2.4" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#normale"><i class="fa fa-check"></i><b>24.2.4</b> Normale</a></li>
-<li class="chapter" data-level="24.2.5" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#tlc"><i class="fa fa-check"></i><b>24.2.5</b> TLC</a></li>
+<li class="chapter" data-level="22.2.1" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#tavole-della-somma"><i class="fa fa-check"></i><b>22.2.1</b> Tavole della somma</a></li>
+<li class="chapter" data-level="22.2.2" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#binomiale"><i class="fa fa-check"></i><b>22.2.2</b> Binomiale</a></li>
+<li class="chapter" data-level="22.2.3" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#poisson"><i class="fa fa-check"></i><b>22.2.3</b> Poisson</a></li>
+<li class="chapter" data-level="22.2.4" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#normale"><i class="fa fa-check"></i><b>22.2.4</b> Normale</a></li>
+<li class="chapter" data-level="22.2.5" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#tlc"><i class="fa fa-check"></i><b>22.2.5</b> TLC</a></li>
 </ul></li>
-<li class="chapter" data-level="24.3" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#inferenza"><i class="fa fa-check"></i><b>24.3</b> Inferenza</a>
+<li class="chapter" data-level="22.3" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#inferenza"><i class="fa fa-check"></i><b>22.3</b> Inferenza</a>
 <ul>
-<li class="chapter" data-level="24.3.1" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#intervalli-di-confidenza"><i class="fa fa-check"></i><b>24.3.1</b> Intervalli di Confidenza</a></li>
-<li class="chapter" data-level="24.3.2" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#test"><i class="fa fa-check"></i><b>24.3.2</b> Test</a></li>
-<li class="chapter" data-level="24.3.3" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#regressione"><i class="fa fa-check"></i><b>24.3.3</b> Regressione</a></li>
+<li class="chapter" data-level="22.3.1" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#intervalli-di-confidenza"><i class="fa fa-check"></i><b>22.3.1</b> Intervalli di Confidenza</a></li>
+<li class="chapter" data-level="22.3.2" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#test"><i class="fa fa-check"></i><b>22.3.2</b> Test</a></li>
+<li class="chapter" data-level="22.3.3" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#regressione"><i class="fa fa-check"></i><b>22.3.3</b> Regressione</a></li>
 </ul></li>
-<li class="chapter" data-level="24.4" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#esempi-3"><i class="fa fa-check"></i><b>24.4</b> Esempi</a></li>
+<li class="chapter" data-level="22.4" data-path="funzioni-usate-nel-libro.html"><a href="funzioni-usate-nel-libro.html#esempi-3"><i class="fa fa-check"></i><b>22.4</b> Esempi</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -691,8 +639,10 @@ non ha media <span class="math inline">\(\mu_0\)</span>.</p>
 rifiutarla. Costruiremo anche una misura di <em>vicinanza</em> empirica ad
 <span class="math inline">\(H_1\)</span>, il <span class="math inline">\(p_{\text{value}}\)</span>, che ci consentirà di capire quanto
 l’evidenza empirica dei dati supporti supporti una delle due ipotesi.</p>
-<div id="test-sulla-media-ipotesi-unilaterale-destra-sigma2-noto" class="section level2 hasAnchor" number="15.1">
-<h2><span class="header-section-number">15.1</span> Test sulla media, ipotesi unilaterale destra, <span class="math inline">\(\sigma^2\)</span> noto<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-destra-sigma2-noto" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="test-sulla-media-sigma2-noto" class="section level2 hasAnchor" number="15.1">
+<h2><span class="header-section-number">15.1</span> Test sulla media, <span class="math inline">\(\sigma^2\)</span> noto<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-sigma2-noto" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="test-sulla-media-ipotesi-unilaterale-destra-sigma2-noto" class="section level3 hasAnchor" number="15.1.1">
+<h3><span class="header-section-number">15.1.1</span> Test sulla media, ipotesi unilaterale destra, <span class="math inline">\(\sigma^2\)</span> noto<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-destra-sigma2-noto" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Siano <span class="math inline">\(X_1,...X_n\)</span>, <span class="math inline">\(n\)</span> VC, IID: <span class="math inline">\(X_i\sim N(\mu,\sigma^2)\)</span> con
 <span class="math inline">\(\sigma^2\)</span> noto. Consideriamo il seguente sistema di ipotesi</p>
 <p><span class="math display">\[\begin{cases}
@@ -718,76 +668,78 @@ livello di significatività <span class="math inline">\(\alpha\times100\%\)</spa
 <li>Se <span class="math inline">\(z_{\text{obs}}&gt;z_\alpha\)</span> <span class="math inline">\(H_0\)</span> <strong>viene rifiutata</strong> al livello di
 significatività <span class="math inline">\(\alpha\times100\%\)</span></li>
 </ul>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-158-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 </div>
 </div>
-<div id="test-sulla-media-sigma2-noto-vari-livelli-di-alpha" class="section level2 hasAnchor" number="15.2">
-<h2><span class="header-section-number">15.2</span> Test sulla media, <span class="math inline">\(\sigma^2\)</span> noto, vari livelli di <span class="math inline">\(\alpha\)</span><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-sigma2-noto-vari-livelli-di-alpha" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="test-sulla-media-sigma2-noto-vari-livelli-di-alpha" class="section level3 hasAnchor" number="15.1.2">
+<h3><span class="header-section-number">15.1.2</span> Test sulla media, <span class="math inline">\(\sigma^2\)</span> noto, vari livelli di <span class="math inline">\(\alpha\)</span><a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-sigma2-noto-vari-livelli-di-alpha" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Se <span class="math inline">\(\alpha=0.05\)</span> allora
 <span class="math display">\[\text{Punto Critico}=z_{0.05},\qquad P(Z&gt;z_{0.05})=0.05\]</span>
 <span class="math inline">\(z_{0.05}=1.6449\)</span></p>
 <p>Se <span class="math inline">\(\alpha=0.01\)</span> allora
 <span class="math display">\[\text{Punto Critico}=z_{0.01},\qquad P(Z&gt;z_{0.01})=0.01\]</span>
 <span class="math inline">\(z_{0.01}=2.3263\)</span></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-159-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <div class="example">
-<p><span id="exm:unlabeled-div-183" class="example"><strong>Esempio 15.1  </strong></span>In un laboratorio, vi sono cavie con peso medio uguale a 30g e una DS
+<p><span id="exm:unlabeled-div-1" class="example"><strong>Esempio 15.1  </strong></span>In un laboratorio, vi sono cavie con peso medio uguale a 30g e una DS
 pari a 5g. Uno studente seleziona 25 cavie e ottiene un peso medio
 uguale a 32g con una <span class="math inline">\(\hat\sigma\)</span> pari a 7g. La selezione è casuale o il
 valore ottenuto della media è troppo alto, a un LdS del 5%?</p>
-<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\mu=\mu_0= 30 \text{  }\\
-   H_1:\mu &gt;  \mu_0= 30 \text{  }
+<p><strong>Test <span class="math inline">\(Z\)</span> per una media, variazna nota</strong></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \mu = \mu_0=30 \\
+   H_1: \mu &gt; \mu_0=30
    \end{cases}\]</span></p>
-<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span>
-<span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> è nota: <span class="math inline">\(\Rightarrow\)</span> z-Test.
-<span class="math display">\[\begin{eqnarray*}
+<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span></p>
+<p><span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> è nota: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
    \frac{\hat\mu - \mu_{0}} {\sigma/\sqrt{n}}&amp;\sim&amp;N(0,1)\\
    z_{\text{obs}}
    &amp;=&amp; \frac{ ( 32 -  30 )} { 5 /\sqrt{ 25 }}
    =   2 \, .
-   \end{eqnarray*}\]</span><span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(z_{ 0.05 } = 1.645\)</span>.
-<span class="math display">\[z_{\text{obs}} =  2 &gt; z_{ 0.05 } =  1.645 \]</span> CONCLUSIONE: i dati non sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 5 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-160-1.png" width="672" /></p>
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>La siginficatitività è <span class="math inline">\(\alpha=0.05\)</span>, dalle tavole osserviamo <span class="math inline">\(z_{0.05}=1.6449\)</span>.</p>
+<p>Essendo <span class="math inline">\(z_\text{obs}=2&gt;z_{0.05}=1.6449\)</span> allora <strong>rifiuto</strong> <span class="math inline">\(H_0\)</span> al 5%.</p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-184" class="example"><strong>Esempio 15.2  </strong></span>In un laboratorio, vi sono cavie con peso medio uguale a 30g e una DS
+<p><span id="exm:unlabeled-div-2" class="example"><strong>Esempio 15.2  </strong></span>In un laboratorio, vi sono cavie con peso medio uguale a 30g e una DS
 pari a 5g. Uno studente seleziona 25 cavie e ottiene un peso medio
 uguale a 32g con una <span class="math inline">\(\hat\sigma\)</span> pari a 7g. La selezione è casuale o il
 valore ottenuto della media è troppo alto, a un LdS del 1%?</p>
-<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\mu=\mu_0= 30 \text{ g }\\
-   H_1:\mu &gt;  \mu_0= 30 \text{ g }
+<p><strong>Test <span class="math inline">\(Z\)</span> per una media, variazna nota</strong></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \mu = \mu_0=30g \\
+   H_1: \mu &gt; \mu_0=30g
    \end{cases}\]</span></p>
-<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span>
-<span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> è nota: <span class="math inline">\(\Rightarrow\)</span> z-Test.
-<span class="math display">\[\begin{eqnarray*}
+<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span></p>
+<p><span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> è nota: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
    \frac{\hat\mu - \mu_{0}} {\sigma/\sqrt{n}}&amp;\sim&amp;N(0,1)\\
    z_{\text{obs}}
    &amp;=&amp; \frac{ ( 32 -  30 )} { 5 /\sqrt{ 25 }}
    =   2 \, .
-   \end{eqnarray*}\]</span><span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(z_{ 0.01 } = 2.326\)</span>.
-<span class="math display">\[z_{\text{obs}} =  2 &lt; z_{ 0.01 } =  2.326 \]</span> CONCLUSIONE: i dati sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 1 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-161-1.png" width="672" /></p>
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>La siginficatitività è <span class="math inline">\(\alpha=0.01\)</span>, dalle tavole osserviamo <span class="math inline">\(z_{0.01}=2.3263\)</span>.</p>
+<p>Essendo <span class="math inline">\(z_\text{obs}=2&lt;z_{0.01}=2.3263\)</span> allora <strong>non</strong> rifiuto <span class="math inline">\(H_0\)</span> al 1%.</p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 </div>
 </div>
-<div id="la-probabilità-di-significatività-osservata-il-p_textvalue" class="section level2 hasAnchor" number="15.3">
-<h2><span class="header-section-number">15.3</span> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="la-probabilità-di-significatività-osservata-il-p_textvalue" class="section level3 hasAnchor" number="15.1.3">
+<h3><span class="header-section-number">15.1.3</span> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Il <span class="math inline">\(p_\text{value}\)</span> risponde a questa domanda: <em>Se nell’esempio
 precedente usassimo</em> <span class="math inline">\(z_{\text{obs}}\)</span> <em>come punto critico quale sarebbe
 la probabilità di significatività?</em></p>
 <div class="info">
 <div class="definition">
-<p><span id="def:unlabeled-div-185" class="definition"><strong>Definizione 15.1  ($p_\text{value}$ caso unilaterale destro) </strong></span><span class="math display">\[p_\text{value}=P(Z&gt;z_{\text{obs}};H_0)\]</span></p>
+<p><span id="def:unlabeled-div-3" class="definition"><strong>Definizione 15.1  ($p_\text{value}$ caso unilaterale destro) </strong></span><span class="math display">\[p_\text{value}=P(Z&gt;z_{\text{obs}};H_0)\]</span></p>
 </div>
 </div>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-162-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 <span class="math display">\[\begin{eqnarray*}
 p_{\text{value}}&amp;=&amp; P(Z&gt;2) \\
                 &amp;=&amp; 1-P(Z&lt;2)\\
@@ -795,8 +747,9 @@ p_{\text{value}}&amp;=&amp; P(Z&gt;2) \\
                 &amp;=&amp; 1-0.9772\\
                 &amp;=&amp; 0.0228
 \end{eqnarray*}\]</span>
-<div id="lettura-del-p_textvalue" class="section level3 hasAnchor" number="15.3.1">
-<h3><span class="header-section-number">15.3.1</span> Lettura del <span class="math inline">\(p_\text{value}\)</span><a href="test-per-una-media-e-una-proporzione.html#lettura-del-p_textvalue" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="lettura-del-p_textvalue" class="section level3 hasAnchor" number="15.1.4">
+<h3><span class="header-section-number">15.1.4</span> Lettura del <span class="math inline">\(p_\text{value}\)</span><a href="test-per-una-media-e-una-proporzione.html#lettura-del-p_textvalue" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>La probabilità di significatività osservata <span class="math inline">\(p_\text{value}\)</span> ci dice la
 probabilità, <em>se fosse vera</em> <span class="math inline">\(H_0\)</span> di trovare un campione ancora più in
 favore di <span class="math inline">\(H_1\)</span> di quello che ho trovato. In altre parole ci dice, <em>se
@@ -805,15 +758,17 @@ fosse vera</em> <span class="math inline">\(H_0\)</span>, quanto sarebbe improba
 <p>Tanto più basso è il <span class="math inline">\(p_\text{value}\)</span> tanto più forte è l’evidenza dei
 dati contro <span class="math inline">\(H_0\)</span>:</p>
 <ul>
-<li>Se <span class="math inline">\(p_\text{value}&lt;0.05\)</span> diremo che il test è significativo al 5%</li>
-<li>Se <span class="math inline">\(p_\text{value}&lt;0.01\)</span> diremo che il test è significativo al 1%</li>
-<li>Ecc.</li>
+<li>Se <span class="math inline">\(p_\text{value}&gt;0.1\)</span> <span class="math inline">\(\rightarrow\)</span> il test <strong>non</strong> è significativo</li>
+<li>Se <span class="math inline">\(0.05&lt; p_\text{value}\le 0.1\rightarrow\)</span> il test è <em>marginalmente</em> significativo <span class="math inline">\(\fbox{.}\)</span></li>
+<li>Se <span class="math inline">\(0.05&lt; p_\text{value}\le 0.01\rightarrow\)</span> il test è significativo
+<span class="math inline">\(\rightarrow\)</span> significativo al 5% <span class="math inline">\(\fbox{*}\)</span></li>
+<li>Se <span class="math inline">\(0.001&lt; p_\text{value}\le 0.01\rightarrow\)</span> il test è <em>molto</em> significativo <span class="math inline">\(\rightarrow\)</span> significativo all’1% <span class="math inline">\(\fbox{**}\)</span></li>
+<li>Se <span class="math inline">\(p_\text{value}\le 0.001\rightarrow\)</span> il test è <em>estremamente</em> significativo <span class="math inline">\(\rightarrow\)</span> significativo sotto all’1‰ <span class="math inline">\(\fbox{***}\)</span></li>
 </ul>
 </div>
 </div>
-</div>
-<div id="test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-noto" class="section level2 hasAnchor" number="15.4">
-<h2><span class="header-section-number">15.4</span> Test sulla media, ipotesi unilaterale sinistra, <span class="math inline">\(\sigma^2\)</span> noto<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-noto" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-noto" class="section level3 hasAnchor" number="15.1.5">
+<h3><span class="header-section-number">15.1.5</span> Test sulla media, ipotesi unilaterale sinistra, <span class="math inline">\(\sigma^2\)</span> noto<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-noto" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Siano <span class="math inline">\(X_1,...X_n\)</span> <span class="math inline">\(n\)</span> VC, IID: <span class="math inline">\(X_i\sim N(\mu,\sigma^2)\)</span> con <span class="math inline">\(\sigma^2\)</span>
 noto.</p>
 <p>Consideriamo il seguente sistema di ipotesi <span class="math display">\[\begin{cases}
@@ -838,10 +793,10 @@ livello di significatività <span class="math inline">\(\alpha\times100\%\)</spa
 <li>Se <span class="math inline">\(z_{\text{obs}}&lt;-z_\alpha\)</span> <span class="math inline">\(H_0\)</span> <strong>viene rifiutata</strong> al livello
 di significatività <span class="math inline">\(\alpha\times100\%\)</span></li>
 </ul>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-163-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-186" class="example"><strong>Esempio 15.3  </strong></span>La durata, in ore, della resistenza di un transistor alle alte
+<p><span id="exm:unlabeled-div-4" class="example"><strong>Esempio 15.3  </strong></span>La durata, in ore, della resistenza di un transistor alle alte
 temperature sia <span class="math inline">\(X \,\sim\, N(\mu,\, \sigma^{2})\)</span> e, in base
 all’esperienza, sia <span class="math inline">\(\mu_{0}=6\)</span> ore e <span class="math inline">\(\sigma_{0}=0.5\)</span> ore. Si apportano
 modifiche alla composizione dei materiali per fare diminuire la durata
@@ -849,31 +804,32 @@ della resistenza alla temperatura. Si eseguono 16 osservazioni, dalle
 quali si ottiene una durata media <span class="math inline">\(\bar{x}=5.7\)</span> e uno deviazione
 standard <span class="math inline">\(s=0.6\)</span>. Verificare l’ipotesi, al LdS dell’1%, che la
 resistenza sia rimasta invariata contro l’alternativa che sia diminuita.</p>
-<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\mu=\mu_0= 6 \text{ h }\\
-   H_1:\mu &lt;  \mu_0= 6 \text{ h }
+<p><strong>Test <span class="math inline">\(Z\)</span> per una media, variazna nota</strong></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \mu = \mu_0=6h \\
+   H_1: \mu &lt; \mu_0=6h
    \end{cases}\]</span></p>
-<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span>
-<span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> è nota: <span class="math inline">\(\Rightarrow\)</span> z-Test.
-<span class="math display">\[\begin{eqnarray*}
+<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span></p>
+<p><span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> è nota: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
    \frac{\hat\mu - \mu_{0}} {\sigma/\sqrt{n}}&amp;\sim&amp;N(0,1)\\
    z_{\text{obs}}
    &amp;=&amp; \frac{ ( 5.7 -  6 )} { 0.5 /\sqrt{ 16 }}
    =   -2.4 \, .
-   \end{eqnarray*}\]</span><span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(z_{ 0.01 } = -2.326\)</span>.
-<span class="math display">\[z_{\text{obs}} =  -2.4 &lt; z_{ 0.01 } =  -2.326 \]</span> CONCLUSIONE: i dati non sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 1 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-164-1.png" width="672" /></p>
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>La siginficatitività è <span class="math inline">\(\alpha=0.01\)</span>, dalle tavole osserviamo <span class="math inline">\(z_{0.01}=-2.3263\)</span>.</p>
+<p>Essendo <span class="math inline">\(z_\text{obs}=-2.4&lt;z_{0.01}=-2.3263\)</span> allora <strong>rifiuto</strong> <span class="math inline">\(H_0\)</span> al 1%.</p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
 </div>
-<div id="la-probabilità-di-significatività-osservata-il-p_textvalue-1" class="section level3 hasAnchor" number="15.4.1">
-<h3><span class="header-section-number">15.4.1</span> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="la-probabilità-di-significatività-osservata-il-p_textvalue-1" class="section level4 hasAnchor" number="15.1.5.1">
+<h4><span class="header-section-number">15.1.5.1</span> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <div class="definition">
-<p><span id="def:unlabeled-div-187" class="definition"><strong>Definizione 15.2  ($p_\text{value}$ caso unilaterale sinistro) </strong></span>Nel caso di ipotesi unilaterale sinistra abbiamo
+<p><span id="def:unlabeled-div-5" class="definition"><strong>Definizione 15.2  ($p_\text{value}$ caso unilaterale sinistro) </strong></span>Nel caso di ipotesi unilaterale sinistra abbiamo
 <span class="math display">\[p_\text{value}=P(Z&lt;z_{\text{obs}};H_0)\]</span></p>
 </div>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-165-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
 <p><span class="math display">\[\begin{eqnarray*}
 p_{\text{value}}&amp;=&amp; P(Z&lt;-2.4) \\
                 &amp;=&amp; \Phi(-2.4)\\
@@ -883,8 +839,8 @@ p_{\text{value}}&amp;=&amp; P(Z&lt;-2.4) \\
 \end{eqnarray*}\]</span></p>
 </div>
 </div>
-<div id="test-sulla-media-ipotesi-bilaterale-sigma2-noto" class="section level2 hasAnchor" number="15.5">
-<h2><span class="header-section-number">15.5</span> Test sulla media, ipotesi bilaterale, <span class="math inline">\(\sigma^2\)</span> noto<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-bilaterale-sigma2-noto" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="test-sulla-media-ipotesi-bilaterale-sigma2-noto" class="section level3 hasAnchor" number="15.1.6">
+<h3><span class="header-section-number">15.1.6</span> Test sulla media, ipotesi bilaterale, <span class="math inline">\(\sigma^2\)</span> noto<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-bilaterale-sigma2-noto" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Siano <span class="math inline">\(X_1,...X_n\)</span> <span class="math inline">\(n\)</span> VC, IID: <span class="math inline">\(X_i\sim N(\mu,\sigma^2)\)</span> con <span class="math inline">\(\sigma^2\)</span>
 noto. Consideriamo il seguente sistema di ipotesi <span class="math display">\[\begin{cases}
 H_0:\mu=\mu_0\\
@@ -906,43 +862,42 @@ viene rifiutata</strong> al livello di significatività <span class="math inline
 <span class="math inline">\(H_0\)</span> <strong>viene rifiutata</strong> al livello di significatività
 <span class="math inline">\(\alpha\times100\%\)</span></li>
 </ul>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-166-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-188" class="example"><strong>Esempio 15.4  </strong></span>Il venditore di una macchina pesatrice, da inserire in una catena di
-produzione, afferma che le sue caratteristiche sono: <span class="math inline">\(\mu = 300\)</span>g e
-<span class="math inline">\(\sigma= 3\)</span>g. Si eseguono 16 misure di controllo e si ottiene una media
-uguale a 302g e una deviazione standard 4g. I risultati delle
-osservazioni sono coerenti con l’affermazione del venditore al LdS
-dell’1% o la pesatrice tende a pesare <em>diversamente</em> dalla quantità
-dichiarata?</p>
-<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\mu=\mu_0= 300 \text{ g }\\
-   H_1:\mu \neq  \mu_0= 300 \text{ g }
-   \end{cases}\]</span> Siccome <span class="math inline">\(H_1\)</span> è bilaterale, considereremo <span class="math inline">\(\alpha/2\)</span>, anziché <span class="math inline">\(\alpha\)</span> <span class="math display">\[ \]</span></p>
-<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span>
-<span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> è nota: <span class="math inline">\(\Rightarrow\)</span> z-Test.
-<span class="math display">\[\begin{eqnarray*}
+<p><span id="exm:unlabeled-div-6" class="example"><strong>Esempio 15.4  </strong></span>Un produttore di semiconduttori afferma che la durata media dei suoi chip è di 300 ore con una deviazione standard di 3 ore. Un’azienda decide di testare la qualità dei chip e conduce un esperimento con 16 chip, ottenendo una durata media di 288 ore e una deviazione standard di 4 ore. I risultati di questo test sono coerenti con l’affermazione del produttore i chip tendono a durare meno dalla durata dichiarata?</p>
+<p><strong>Test <span class="math inline">\(Z\)</span> per una media, variazna nota</strong></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \mu = \mu_0=300h \\
+   H_1: \mu &lt; \mu_0=300h
+   \end{cases}\]</span></p>
+<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span></p>
+<p><span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> è nota: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
    \frac{\hat\mu - \mu_{0}} {\sigma/\sqrt{n}}&amp;\sim&amp;N(0,1)\\
    z_{\text{obs}}
-   &amp;=&amp; \frac{ ( 302 -  300 )} { 3 /\sqrt{ 16 }}
-   =   2.667 \, .
-   \end{eqnarray*}\]</span><span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(z_{ 0.005 } = 2.576\)</span>.
-<span class="math display">\[z_{\text{obs}} =  2.667 &gt; z_{ 0.005 } =  2.576 \]</span> CONCLUSIONE: i dati non sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 1 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-167-1.png" width="672" /></p>
+   &amp;=&amp; \frac{ ( 298 -  300 )} { 4 /\sqrt{ 16 }}
+   =   -2 \, .
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(Z&lt;-2)=0.022750 \]</span></p>
+<p><span class="math display">\[
+0.01 &lt; p_\text{value}= 0.022750 \leq 0.05
+\]</span><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<p><strong>Rifiuto</strong> <span class="math inline">\(H_0\)</span> al 5%,</p>
+<p><span class="math inline">\(0.01&lt;p_\text{value}&lt;0.05\)</span>, <em>significativo</em> <span class="math inline">\(\fbox{*}\)</span>.</p>
 </div>
-<div id="la-probabilità-di-significatività-osservata-il-p_textvalue-2" class="section level3 hasAnchor" number="15.5.1">
-<h3><span class="header-section-number">15.5.1</span> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="la-probabilità-di-significatività-osservata-il-p_textvalue-2" class="section level4 hasAnchor" number="15.1.6.1">
+<h4><span class="header-section-number">15.1.6.1</span> La probabilità di significatività osservata il <span class="math inline">\(p_\text{value}\)</span><a href="test-per-una-media-e-una-proporzione.html#la-probabilità-di-significatività-osservata-il-p_textvalue-2" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <div class="info">
 <div class="definition">
-<p><span id="def:unlabeled-div-189" class="definition"><strong>Definizione 15.3  ($p_\text{value}$ caso bilaterale) </strong></span>Nel caso di ipotesi bilaterale abbiamo
+<p><span id="def:unlabeled-div-7" class="definition"><strong>Definizione 15.3  ($p_\text{value}$ caso bilaterale) </strong></span>Nel caso di ipotesi bilaterale abbiamo
 <span class="math display">\[p_\text{value}=P(|Z|&gt;|z_{\text{obs}}|;H_0)\]</span></p>
 </div>
 </div>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-168-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
 <span class="math display">\[\begin{eqnarray*}
 p_{\text{value}}&amp;=&amp; P(|Z|&gt;2.67) \\
                 &amp;=&amp; P(Z&lt;-2.67)+P(Z&gt;2.67)\\
@@ -953,8 +908,54 @@ p_{\text{value}}&amp;=&amp; P(|Z|&gt;2.67) \\
 \end{eqnarray*}\]</span>
 </div>
 </div>
-<div id="test-per-mu-sigma-incognita" class="section level2 hasAnchor" number="15.6">
-<h2><span class="header-section-number">15.6</span> Test per <span class="math inline">\(\mu\)</span>, <span class="math inline">\(\sigma\)</span> incognita<a href="test-per-una-media-e-una-proporzione.html#test-per-mu-sigma-incognita" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="significatività-non-fissata" class="section level2 hasAnchor" number="15.2">
+<h2><span class="header-section-number">15.2</span> Significatività non fissata<a href="test-per-una-media-e-una-proporzione.html#significatività-non-fissata" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Le strategie per decidere per <span class="math inline">\(H_0\)</span> invece di <span class="math inline">\(H_1\)</span> cambiano a seconda di cosa
+rappresentano realmente le due ipotesi. In controllo di qualità industriale
+<span class="math inline">\(H_0\)</span> significa conforme agli standard e <span class="math inline">\(H_1\)</span> non conforme, fissare <span class="math inline">\(\alpha\)</span> e
+di conseguenza <span class="math inline">\(\beta\)</span> è frutto di un bilancio rischi benefici che richiede di
+esplicitare i costi che l’azienda paga in base all’errore: quando costa commettere
+l’errore di primo tipo? Quanto costa commettere l’errore di secondo tipo?</p>
+<p>In altri contesti di ricerca la lontananza dei dati da <span class="math inline">\(H_0\)</span> può essere oggetto
+di dibattito e il <span class="math inline">\(p_\text{value}\)</span> misura esattamente questo. Senza avere fissato
+in anticipo <span class="math inline">\(\alpha\)</span> il ricercatore di trova a discutere se il <span class="math inline">\(p_\text{value}\)</span>
+è sufficientemente piccolo da rigettare l’ipotesi nulla.
+Il prossimo esempio esemplifica l’approccio</p>
+<div class="example">
+<p><span id="exm:unlabeled-div-8" class="example"><strong>Esempio 15.5  </strong></span>Un’azienda farmaceutica afferma che la concentrazione media di principio attivo
+in una certa medicina è di 50 mg con una deviazione standard di 2 mg. Un
+laboratorio indipendente decide di verificare questa affermazione eseguendo
+25 analisi e ottiene una concentrazione media di 51 mg e una deviazione standard
+di 2.5 mg. I risultati delle analisi sono coerenti con l’affermazione
+dell’azienda o la concentrazione del principio attivo è maggiore dalla quantità
+dichiarata?</p>
+<p><strong>Test <span class="math inline">\(Z\)</span> per una media, variazna nota</strong></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \mu = \mu_0=50mg \\
+   H_1: \mu &gt; \mu_0=50mg
+   \end{cases}\]</span></p>
+<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span></p>
+<p><span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> è nota: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
+   \frac{\hat\mu - \mu_{0}} {\sigma/\sqrt{n}}&amp;\sim&amp;N(0,1)\\
+   z_{\text{obs}}
+   &amp;=&amp; \frac{ ( 51 -  50 )} { 2 /\sqrt{ 25 }}
+   =   2.5 \, .
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(Z&gt;2.5)=0.006210 \]</span></p>
+<p><span class="math display">\[
+0.001 &lt; p_\text{value}= 0.006210 \leq 0.01
+\]</span><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p><strong>Rifiuto</strong> <span class="math inline">\(H_0\)</span> all’1%,</p>
+<p><span class="math inline">\(0.001&lt;p_\text{value}&lt;0.01\)</span>, <em>molto significativo</em> <span class="math inline">\(\fbox{**}\)</span>.</p>
+</div>
+</div>
+<div id="test-per-mu-sigma-incognita" class="section level2 hasAnchor" number="15.3">
+<h2><span class="header-section-number">15.3</span> Test per <span class="math inline">\(\mu\)</span>, <span class="math inline">\(\sigma\)</span> incognita<a href="test-per-una-media-e-una-proporzione.html#test-per-mu-sigma-incognita" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Se <span class="math inline">\(\sigma^2\)</span> è incognito va stimato dai dati. Consideriamo lo stimatore
 <span class="math inline">\(S^2\)</span> di <span class="math inline">\(\sigma^2\)</span>
 <span class="math display">\[S^2=\frac {1}{n-1}\sum_{i=1}^n (X_i-\hat \mu)^2=\frac {n}{n-1}\frac 1 n\sum_{i=1}^n (X_i-\hat \mu)^2=\frac n {n-1}\hat\sigma^2\]</span></p>
@@ -965,8 +966,8 @@ p_{\text{value}}&amp;=&amp; P(|Z|&gt;2.67) \\
 <p>Ovvero <span class="math display">\[T=\frac{\hat \mu-\mu}{S/\sqrt n}\sim t_{n-1}\]</span></p>
 <p>E quindi sotto <span class="math inline">\(H_0\)</span> <span class="math display">\[T=\frac{\hat \mu-\mu_0}{S/\sqrt n}\sim t_{n-1}\]</span>
 <span class="math inline">\(T\)</span> è la statistica test che misura l’evidenza dei dati contro <span class="math inline">\(H_0\)</span></p>
-<div id="test-sulla-media-ipotesi-unilaterale-destra-sigma2-incognito" class="section level3 hasAnchor" number="15.6.1">
-<h3><span class="header-section-number">15.6.1</span> Test sulla media, ipotesi unilaterale destra, <span class="math inline">\(\sigma^2\)</span> incognito<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-destra-sigma2-incognito" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="test-sulla-media-ipotesi-unilaterale-destra-sigma2-incognito" class="section level3 hasAnchor" number="15.3.1">
+<h3><span class="header-section-number">15.3.1</span> Test sulla media, ipotesi unilaterale destra, <span class="math inline">\(\sigma^2\)</span> incognito<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-destra-sigma2-incognito" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Siano <span class="math inline">\(X_1,...X_n\)</span> <span class="math inline">\(n\)</span> VC, IID: <span class="math inline">\(X_i\sim N(\mu,\sigma^2)\)</span> con <span class="math inline">\(\sigma^2\)</span>
 incognito.</p>
 <p>Consideriamo il seguente sistema di ipotesi <span class="math display">\[\begin{cases}
@@ -988,42 +989,42 @@ livello di significatività <span class="math inline">\(\alpha\times100\%\)</spa
 <li>Se <span class="math inline">\(t_{\text{obs}}&gt;t_{n-1;\alpha}\)</span> <span class="math inline">\(H_0\)</span> <strong>viene rifiutata</strong> al
 livello di significatività <span class="math inline">\(\alpha\times100\%\)</span></li>
 </ul>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-169-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-190" class="example"><strong>Esempio 15.5  </strong></span>Un produttore di aspirine afferma che il prodotto lenisce il mal di
+<p><span id="exm:unlabeled-div-9" class="example"><strong>Esempio 15.6  </strong></span>Un produttore di aspirine afferma che il prodotto lenisce il mal di
 testa in 30 minuti. Un campione casuale di 25 persone la usa. Risultato:
-<span class="math inline">\(\bar{x}=31,4\)</span>m con <span class="math inline">\(\hat{\sigma}=\)</span> 4,2m. Verificare l’affermazione del
+<span class="math inline">\(\bar{x}=31.4\)</span>m con <span class="math inline">\(\hat{\sigma}= 4.2\)</span>m. Verificare l’affermazione del
 produttore a un LdS del 5%.</p>
-<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\mu=\mu_0= 30 \text{ m }\\
-   H_1:\mu &gt;  \mu_0= 30 \text{ m }
+<p><strong>Test <span class="math inline">\(t\)</span> per una media, varianza incognita</strong></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \mu = \mu_0=30m \\
+   H_1: \mu &gt; \mu_0=30m
    \end{cases}\]</span></p>
-<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(T\)</span>
-<span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> non è nota: <span class="math inline">\(\Rightarrow\)</span> t-Test.
-<span class="math display">\[\begin{eqnarray*}
-   S
-   &amp;=&amp; \sqrt{\frac{n} {n-1}}\ \widehat{\sigma}
-   =  \sqrt{\frac{ 25 } { 25 -1}} \times  4.2  =  4.287  
+<p><span class="math display">\[\begin{eqnarray*}
+   S    &amp;=&amp; \sqrt{\frac{n} {n-1}}\ \widehat{\sigma}
+   =  \sqrt{\frac{ 25 } { 25 -1}} \times  4.2  =  4.287
    \end{eqnarray*}\]</span>
 <span class="math display">\[\begin{eqnarray*}
    \frac{\hat\mu - \mu_{0}} {S/\,\sqrt{n}}&amp;\sim&amp;t_{n-1}\\
    t_{\text{obs}}
    &amp;=&amp; \frac{ ( 31.4 -  30 )} { 4.287 /\sqrt{ 25 }}
    =   1.633 \, .
-   \end{eqnarray*}\]</span>
-<span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(t_{( 25 -1);\, 0.05 } = 1.711\)</span>.
-<span class="math display">\[t_{\text{obs}} =  1.633   &lt;  t_{ 24 ;\,  0.05 } =  1.711 \]</span>
-CONCLUSIONE: i dati sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 5 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-170-1.png" width="672" />Il <span class="math inline">\(p_{\text{value}}\)</span> è
-<span class="math display">\[ P(T_{n-1}&gt;t_{\text{obs}})=P(T_{n-1}&gt; 1.633 )= 0.05776 \]</span></p>
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>La siginficatitività è <span class="math inline">\(\alpha=0.05\)</span>, dalle tavole osserviamo <span class="math inline">\(t_{25-1;0.05}=1.7109\)</span>.</p>
+<p>Essendo <span class="math inline">\(t_\text{obs}=1.633&lt;t_{25-1;0.05}=1.7109\)</span> allora <strong>non</strong> rifiuto <span class="math inline">\(H_0\)</span> al 5%.</p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(T_{25-1}&gt;1.63)=0.057761 \]</span></p>
+<p>Attenzione il calcolo del <span class="math inline">\(p_\text{value}\)</span> con la <span class="math inline">\(T\)</span> è puramente illustrativo e non può essere riprodotto senza una calcolatrice statistica adeguata.<span class="math display">\[
+0.05 &lt; p_\text{value}= 0.057761 \leq 0.1
+\]</span></p>
 </div>
 </div>
-<div id="test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-incognito" class="section level3 hasAnchor" number="15.6.2">
-<h3><span class="header-section-number">15.6.2</span> Test sulla media, ipotesi unilaterale sinistra, <span class="math inline">\(\sigma^2\)</span> incognito<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-incognito" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-incognito" class="section level3 hasAnchor" number="15.3.2">
+<h3><span class="header-section-number">15.3.2</span> Test sulla media, ipotesi unilaterale sinistra, <span class="math inline">\(\sigma^2\)</span> incognito<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-unilaterale-sinistra-sigma2-incognito" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Siano <span class="math inline">\(X_1,...X_n\)</span> <span class="math inline">\(n\)</span> VC, IID: <span class="math inline">\(X_i\sim N(\mu,\sigma^2)\)</span> con <span class="math inline">\(\sigma^2\)</span>
 incognito. Consideriamo il seguente sistema di ipotesi <span class="math display">\[\begin{cases}
 H_0:\mu=\mu_0\\
@@ -1045,42 +1046,42 @@ livello di significatività <span class="math inline">\(\alpha\times100\%\)</spa
 livello di significatività <span class="math inline">\(\alpha\times100\%\)</span></li>
 </ul>
 </div>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-171-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
 <div class="example">
-<p><span id="exm:unlabeled-div-191" class="example"><strong>Esempio 15.6  </strong></span>Un Centro dietetico afferma che con i loro programmi si perdono in media
+<p><span id="exm:unlabeled-div-10" class="example"><strong>Esempio 15.7  </strong></span>Un Centro dietetico afferma che con i loro programmi si perdono in media
 2kg nella prima settimana. Si selezionano casualmente 25 soggetti, tra
 gli iscritti al programma.</p>
 <p>Risultato: <span class="math inline">\(\overline{\Delta x}=1.5\)</span>kg con <span class="math inline">\(\hat\sigma=1.4\)</span>kg.
 Verificare l’affermazione del Centro al LdS del 5%.</p>
-<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\mu=\mu_0= 2 \text{ kg }\\
-   H_1:\mu &lt;  \mu_0= 2 \text{ kg }
+<p><strong>Test <span class="math inline">\(t\)</span> per una media, varianza incognita</strong></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \mu = \mu_0=2kg \\
+   H_1: \mu &lt; \mu_0=2kg
    \end{cases}\]</span></p>
-<p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(T\)</span>
-<span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> non è nota: <span class="math inline">\(\Rightarrow\)</span> t-Test.
-<span class="math display">\[\begin{eqnarray*}
-   S
-   &amp;=&amp; \sqrt{\frac{n} {n-1}}\ \widehat{\sigma}
-   =  \sqrt{\frac{ 25 } { 25 -1}} \times  1.4  =  1.429  
+<p><span class="math display">\[\begin{eqnarray*}
+   S    &amp;=&amp; \sqrt{\frac{n} {n-1}}\ \widehat{\sigma}
+   =  \sqrt{\frac{ 25 } { 25 -1}} \times  1.4  =  1.429
    \end{eqnarray*}\]</span>
 <span class="math display">\[\begin{eqnarray*}
    \frac{\hat\mu - \mu_{0}} {S/\,\sqrt{n}}&amp;\sim&amp;t_{n-1}\\
    t_{\text{obs}}
    &amp;=&amp; \frac{ ( 1.5 -  2 )} { 1.429 /\sqrt{ 25 }}
    =   -1.75 \, .
-   \end{eqnarray*}\]</span>
-<span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(t_{( 25 -1);\, 0.05 } = -1.711\)</span>.
-<span class="math display">\[t_{\text{obs}} =  -1.75   &lt;  t_{ 24 ;\,  0.05 } =  -1.711 \]</span>
-CONCLUSIONE: i dati non sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 5 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-172-1.png" width="672" />Il <span class="math inline">\(p_{\text{value}}\)</span> è
-<span class="math display">\[ P(T_{n-1}&lt;t_{\text{obs}})=P(T_{n-1}&lt; -1.75 )= 0.04648 \]</span></p>
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>La siginficatitività è <span class="math inline">\(\alpha=0.05\)</span>, dalle tavole osserviamo <span class="math inline">\(t_{25-1;0.05}=-1.7109\)</span>.</p>
+<p>Essendo <span class="math inline">\(t_\text{obs}=-1.7496&lt;t_{25-1;0.05}=-1.7109\)</span> allora <strong>rifiuto</strong> <span class="math inline">\(H_0\)</span> al 5%.</p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(T_{25-1}&lt;-1.75)=0.046480 \]</span></p>
+<p>Attenzione il calcolo del <span class="math inline">\(p_\text{value}\)</span> con la <span class="math inline">\(T\)</span> è puramente illustrativo e non può essere riprodotto senza una calcolatrice statistica adeguata.<span class="math display">\[
+0.01 &lt; p_\text{value}= 0.046480 \leq 0.05
+\]</span></p>
 </div>
 </div>
-<div id="test-sulla-media-ipotesi-bilaterale-sigma2-incognito" class="section level3 hasAnchor" number="15.6.3">
-<h3><span class="header-section-number">15.6.3</span> Test sulla media, ipotesi bilaterale, <span class="math inline">\(\sigma^2\)</span> incognito<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-bilaterale-sigma2-incognito" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="test-sulla-media-ipotesi-bilaterale-sigma2-incognito" class="section level3 hasAnchor" number="15.3.3">
+<h3><span class="header-section-number">15.3.3</span> Test sulla media, ipotesi bilaterale, <span class="math inline">\(\sigma^2\)</span> incognito<a href="test-per-una-media-e-una-proporzione.html#test-sulla-media-ipotesi-bilaterale-sigma2-incognito" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Siano <span class="math inline">\(X_1,...X_n\)</span> <span class="math inline">\(n\)</span> VC, IID: <span class="math inline">\(X_i\sim N(\mu,\sigma^2)\)</span> con <span class="math inline">\(\sigma^2\)</span>
 incognito. Consideriamo il seguente sistema di ipotesi <span class="math display">\[\begin{cases}
 H_0:\mu=\mu_0\\
@@ -1100,47 +1101,96 @@ viene rifiutata</strong> al livello di significatività <span class="math inline
 <span class="math inline">\(t_{\text{obs}}&lt;-t_{n-1;\alpha/2}\)</span> <span class="math inline">\(H_0\)</span> <strong>viene rifiutata</strong> al
 livello di significatività <span class="math inline">\(\alpha\times100\%\)</span></li>
 </ul>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-173-1.png" width="672" /></p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-192" class="example"><strong>Esempio 15.7  </strong></span>Eseguite 17 misure di resistenza su 17 campioni di filo. Risultato: la
+<p><span id="exm:unlabeled-div-11" class="example"><strong>Esempio 15.8  </strong></span>Eseguite 17 misure di resistenza su 17 campioni di filo. Risultato: la
 media è 7.5N (Newton) con <span class="math inline">\(\hat\sigma=\)</span> 1.2N.</p>
 <p>Il filo è stato ottenuto con un nuovo procedimento, ma non si conoscono
 i possibili effetti sulla resistenza. Verificare, a un LdS del 5%,
 l’ipotesi che la resistenza media sia uguale al filo standard, che è
 6.8N, contro l’alternativa che sia diverso.</p>
-<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\mu=\mu_0= 6.8 \text{ N }\\
-   H_1:\mu \neq  \mu_0= 6.8 \text{ N }
-   \end{cases}\]</span>
-Siccome <span class="math inline">\(H_1\)</span> è bilaterale, considereremo <span class="math inline">\(\alpha/2\)</span>, anziché ( </p>
-<p>)<br />
-<span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(T\)</span>
-<span class="math inline">\(\sigma^{2}\)</span> di <span class="math inline">\(\cal{P}\)</span> non è nota: <span class="math inline">\(\Rightarrow\)</span> t-Test.
-<span class="math display">\[\begin{eqnarray*}
-   S
-   &amp;=&amp; \sqrt{\frac{n} {n-1}}\ \widehat{\sigma}
-   =  \sqrt{\frac{ 17 } { 17 -1}} \times  1.2  =  1.237  
+<p><strong>Test <span class="math inline">\(t\)</span> per una media, varianza incognita</strong></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \mu = \mu_0=6.8N \\
+   H_1: \mu \neq \mu_0=6.8N
+   \end{cases}\]</span></p>
+<p><span class="math display">\[\begin{eqnarray*}
+   S    &amp;=&amp; \sqrt{\frac{n} {n-1}}\ \widehat{\sigma}
+   =  \sqrt{\frac{ 17 } { 17 -1}} \times  1.2  =  1.237
    \end{eqnarray*}\]</span>
 <span class="math display">\[\begin{eqnarray*}
    \frac{\hat\mu - \mu_{0}} {S/\,\sqrt{n}}&amp;\sim&amp;t_{n-1}\\
    t_{\text{obs}}
    &amp;=&amp; \frac{ ( 7.5 -  6.8 )} { 1.237 /\sqrt{ 17 }}
    =   2.333 \, .
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>La siginficatitività è <span class="math inline">\(\alpha=0.05\)</span>, dalle tavole osserviamo <span class="math inline">\(t_{17-1;0.025}=2.1199\)</span>.</p>
+<p>Essendo <span class="math inline">\(|t_\text{obs}|=2.3333&gt;t_{17-1;0.025}=2.1199\)</span> allora <strong>rifiuto</strong> <span class="math inline">\(H_0\)</span> al 5%.</p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(|T_{17-1}|&gt;|2.33|)=2P(T_{17-1}&gt;2.33)=0.033005 \]</span></p>
+<p>Attenzione il calcolo del <span class="math inline">\(p_\text{value}\)</span> con la <span class="math inline">\(T\)</span> è puramente illustrativo e non può essere riprodotto senza una calcolatrice statistica adeguata.<span class="math display">\[
+0.01 &lt; p_\text{value}= 0.033005 \leq 0.05
+\]</span></p>
+</div>
+</div>
+<div id="significatività-non-fissata-1" class="section level3 hasAnchor" number="15.3.4">
+<h3><span class="header-section-number">15.3.4</span> Significatività non fissata<a href="test-per-una-media-e-una-proporzione.html#significatività-non-fissata-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Come per lo <span class="math inline">\(z\)</span>-test se la significatività non è fissata potremmo interpretare il solo
+<span class="math inline">\(p_\text{value}\)</span>, ma il <span class="math inline">\(p_\text{value}\)</span> per la distribuzione <span class="math inline">\(t\)</span> non è calcolabile
+senza un’opportuna funzione che manca nelle gran parte delle calcolatrici scientifiche.</p>
+<p>Se non si dispone di un software adeguato si possono usare le tavole statistiche
+e ricavare le soglie critiche per diversi <span class="math inline">\(\alpha\)</span>. Una strategia comune è fissare</p>
+<p><span class="math display">\[
+  \alpha=\{1/10,1/20,1/100,1/1000\}=\{0.1,0.05,0.01,0.001\},
+\]</span></p>
+<p>ricavare dalle tavole i rispettivi <span class="math inline">\(t_{n-1,\alpha}\)</span> (<span class="math inline">\(t_{n-1,\alpha/2}\)</span>, se il
+test è bilaterale) e vedere dove cade il <span class="math inline">\(t_\text{obs}\)</span></p>
+<div class="example">
+<p><span id="exm:unlabeled-div-12" class="example"><strong>Esempio 15.9  </strong></span>Un’azienda farmaceutica afferma che la concentrazione media di principio attivo
+in una certa medicina è di 50 mg. Un laboratorio indipendente decide di
+verificare questa affermazione eseguendo 25 analisi e ottiene una concentrazione
+media di 51 mg e una deviazione standard di 2.5 mg.
+I risultati delle analisi sono coerenti con l’affermazione dell’azienda o la
+concentrazione del principio attivo tende a differire dalla quantità dichiarata?</p>
+<p><strong>Test <span class="math inline">\(t\)</span> per una media, varianza incognita</strong></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \mu = \mu_0=50\% \\
+   H_1: \mu \neq \mu_0=50\%
+   \end{cases}\]</span></p>
+<p><span class="math display">\[\begin{eqnarray*}
+   S    &amp;=&amp; \sqrt{\frac{n} {n-1}}\ \widehat{\sigma}
+   =  \sqrt{\frac{ 25 } { 25 -1}} \times  2.5  =  2.552
    \end{eqnarray*}\]</span>
-<span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(t_{( 17 -1);\, 0.025 } = 2.12\)</span>.
-<span class="math display">\[t_{\text{obs}} =  2.333   &gt;  t_{ 16 ;\,  0.025 } =  2.12 \]</span>
-CONCLUSIONE: i dati non sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 5 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-174-1.png" width="672" />Il <span class="math inline">\(p_{\text{value}}\)</span> è
-<span class="math display">\[ P(|T_{n-1}|&gt;|t_{\text{obs}}|)=2P(T_{n-1}&gt;|t_{\text{obs}}|)=2P(T_{n-1}&gt;| 2.3333 |)= 0.03301 \]</span></p>
+<span class="math display">\[\begin{eqnarray*}
+   \frac{\hat\mu - \mu_{0}} {S/\,\sqrt{n}}&amp;\sim&amp;t_{n-1}\\
+   t_{\text{obs}}
+   &amp;=&amp; \frac{ ( 51 -  50 )} { 2.552 /\sqrt{ 25 }}
+   =   1.96 \, .
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>Siccome <span class="math inline">\(H_1\)</span> è bilaterale, considereremo <span class="math inline">\(\alpha/2\)</span>,
+anziché <span class="math inline">\(\alpha\)</span></p>
+<p><span class="math inline">\(\alpha=0.1, 0.05, 0.01, 0.001\)</span> e quindi <span class="math inline">\(\alpha/2=0.05, 0.025, 0.005, 0.0005\)</span></p>
+<p>I valori critici sono</p>
+<p><span class="math inline">\(t_{25-1;0.05}=1.7109\)</span>; <span class="math inline">\(t_{25-1;0.025}=2.0639\)</span>; <span class="math inline">\(t_{25-1;0.005}=2.7969\)</span>; <span class="math inline">\(t_{25-1;0.0005}=3.7454\)</span></p>
+<p>Siccome <span class="math inline">\(1.7109&lt;|t_\text{obs}|=1.9596&lt;2.0639\)</span>, indecisione sul rifiuto di <span class="math inline">\(H_0\)</span> al 10%,</p>
+<p><span class="math inline">\(0.05&lt;p_\text{value}&lt;0.1\)</span>, <em>marginalmente significativo</em> <span class="math inline">\(\fbox{.}\)</span>.</p>
+<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-20-1.png" width="672" /></p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(|T_{25-1}|&gt;|1.96|)=2P(T_{25-1}&gt;1.96)=0.061756 \]</span></p>
+<p>Attenzione il calcolo del <span class="math inline">\(p_\text{value}\)</span> con la <span class="math inline">\(T\)</span> è puramente illustrativo e non può essere riprodotto senza una calcolatrice statistica adeguata.<span class="math display">\[
+0.05 &lt; p_\text{value}= 0.061756 \leq 0.1
+\]</span></p>
 </div>
 </div>
 </div>
-<div id="massima-verosimiglianza-e-test" class="section level2 hasAnchor" number="15.7">
-<h2><span class="header-section-number">15.7</span> Massima verosimiglianza e test<a href="test-per-una-media-e-una-proporzione.html#massima-verosimiglianza-e-test" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="massima-verosimiglianza-e-test" class="section level2 hasAnchor" number="15.4">
+<h2><span class="header-section-number">15.4</span> Massima verosimiglianza e test<a href="test-per-una-media-e-una-proporzione.html#massima-verosimiglianza-e-test" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Se <span class="math inline">\(\hat\theta\)</span> è stimatore di massima verosimiglianza per <span class="math inline">\(\theta\)</span>
 allora, per <span class="math inline">\(n\)</span> sufficientemente grande
 <span class="math display">\[\hat\theta\sim N(\theta, SE^2(\hat\theta))\]</span></p>
@@ -1152,8 +1202,8 @@ allora, per <span class="math inline">\(n\)</span> sufficientemente grande
 <p>Se <span class="math inline">\(n\)</span> diverge <span class="math display">\[t_{n-1}\to N(0,1)\]</span></p>
 <p>Se <span class="math inline">\(n&gt;100\)</span> il <span class="math inline">\(t\)</span>-test diventa lo <span class="math inline">\(z\)</span>-test.</p>
 </div>
-<div id="test-per-pi" class="section level2 hasAnchor" number="15.8">
-<h2><span class="header-section-number">15.8</span> Test per <span class="math inline">\(\pi\)</span><a href="test-per-una-media-e-una-proporzione.html#test-per-pi" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="test-per-pi" class="section level2 hasAnchor" number="15.5">
+<h2><span class="header-section-number">15.5</span> Test per <span class="math inline">\(\pi\)</span><a href="test-per-una-media-e-una-proporzione.html#test-per-pi" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div class="info">
 <p>Siano <span class="math inline">\(X_1,...,X_n\)</span> <span class="math inline">\(n\)</span> VC IID, replicazioni di <span class="math inline">\(X\sim\text{Ber}(\pi)\)</span>.
 Lo stimatore di massima verosimiglianza
@@ -1167,142 +1217,166 @@ Lo stimatore di massima verosimiglianza
 <p>A seconda di <span class="math inline">\(H_1\)</span> decideremo con le solite regole</p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-193" class="example"><strong>Esempio 15.8  </strong></span>Lanciamo <span class="math inline">\(n=50\)</span> un moneta di cui non siamo sicuri se è truccata oppure
-no. Osserviamo 30 successi su 50 lanci. Verificare al livello di
-significatività del 5% che la moneta sia bilanciata (<span class="math inline">\(\pi=0.5\)</span>), contro
-l’alternativa che sia maggiore.</p>
+<p><span id="exm:unlabeled-div-13" class="example"><strong>Esempio 15.10  </strong></span>Lanciamo <span class="math inline">\(n=50\)</span> un moneta di cui non siamo sicuri se è truccata oppure
+no. Osserviamo 30 successi su 50 lanci. Verificare l’ipotesi che la moneta sia
+bilanciata (<span class="math inline">\(\pi=0.5\)</span>), contro l’alternativa che sia maggiore.</p>
 <p>Lo stimatore di massima verosimiglianza è
 <span class="math display">\[\hat\pi=\frac 1 n \sum_{i=1}^n X_i\]</span></p>
+<p><strong>Test <span class="math inline">\(Z\)</span> per una proporzione</strong></p>
 <p>La stima
-<span class="math display">\[\hat\pi=\frac { 30 } { 50 }= 0.6  \]</span> <span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\pi=\pi_0= 0.5 \\
-   H_1:\pi &gt;  \pi_0= 0.5
+<span class="math display">\[\hat\pi=\frac { 30 } { 50 }= 0.6  \]</span></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \pi = \pi_0=0.5 \\
+   H_1: \pi &gt; \pi_0=0.5
    \end{cases}\]</span></p>
 <p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span>
-Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.
-<span class="math display">\[\begin{eqnarray*}
+Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
    \frac{\hat\pi - \pi_{0}} {\sqrt {\pi_0(1-\pi_0)/\,n}}&amp;\sim&amp;N(0,1)\\
    z_{\text{obs}}
    &amp;=&amp; \frac{ ( 0.6 -  0.5 )} {\sqrt{ 0.5 (1- 0.5 )/ 50 }}
-   =   1.414 \, .
-   \end{eqnarray*}\]</span><span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(z_{ 0.05 } = 1.645\)</span>.
-<span class="math display">\[z_{\text{obs}} =  1.414   &lt;  z_{ 0.05 } =  1.645 \]</span>
-CONCLUSIONE: i dati sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 5 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-175-1.png" width="672" />Il <span class="math inline">\(p_{\text{value}}\)</span> è <span class="math display">\[ P(Z&gt;z_{\text{obs}})=P(Z&gt; 1.41 )= 0.07865 \]</span></p>
+   =   1.414 \,.
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(Z&gt;1.41)=0.078650 \]</span></p>
+<p><span class="math display">\[
+0.05 &lt; p_\text{value}= 0.078650 \leq 0.1
+\]</span><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-21-1.png" width="672" /></p>
+<p>Indecisione sul rifiuto di <span class="math inline">\(H_0\)</span> al 10%,</p>
+<p><span class="math inline">\(0.05&lt;p_\text{value}&lt;0.1\)</span>, <em>marginalmente significativo</em> <span class="math inline">\(\fbox{.}\)</span>.</p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-194" class="example"><strong>Esempio 15.9  </strong></span>Lanciamo <span class="math inline">\(n=100\)</span> un moneta di cui non siamo sicuri se è truccata oppure
-no. Osserviamo 60 successi su 50 lanci. Verificare al livello di
-significatività del 5% che la moneta sia bilanciata (<span class="math inline">\(\pi=0.5\)</span>), contro
+<p><span id="exm:unlabeled-div-14" class="example"><strong>Esempio 15.11  </strong></span>Lanciamo <span class="math inline">\(n=100\)</span> un moneta di cui non siamo sicuri se è truccata oppure
+no. Osserviamo 60 successi su 50 lanci. Verificare l’ipotesi che la moneta sia bilanciata (<span class="math inline">\(\pi=0.5\)</span>), contro
 l’alternativa che sia maggiore.</p>
 <p>Lo stimatore di massima verosimiglianza è
 <span class="math display">\[\hat\pi=\frac 1 n \sum_{i=1}^n X_i\]</span></p>
+<p><strong>Test <span class="math inline">\(Z\)</span> per una proporzione</strong></p>
 <p>La stima
-<span class="math display">\[\hat\pi=\frac { 60 } { 100 }= 0.6  \]</span> <span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\pi=\pi_0= 0.5 \\
-   H_1:\pi &gt;  \pi_0= 0.5
+<span class="math display">\[\hat\pi=\frac { 60 } { 100 }= 0.6  \]</span></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \pi = \pi_0=0.5 \\
+   H_1: \pi &gt; \pi_0=0.5
    \end{cases}\]</span></p>
 <p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span>
-Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.
-<span class="math display">\[\begin{eqnarray*}
+Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
    \frac{\hat\pi - \pi_{0}} {\sqrt {\pi_0(1-\pi_0)/\,n}}&amp;\sim&amp;N(0,1)\\
    z_{\text{obs}}
    &amp;=&amp; \frac{ ( 0.6 -  0.5 )} {\sqrt{ 0.5 (1- 0.5 )/ 100 }}
-   =   2 \, .
-   \end{eqnarray*}\]</span><span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(z_{ 0.05 } = 1.645\)</span>.
-<span class="math display">\[z_{\text{obs}} =  2   &gt;  z_{ 0.05 } =  1.645 \]</span>
-CONCLUSIONE: i dati non sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 5 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-176-1.png" width="672" />Il <span class="math inline">\(p_{\text{value}}\)</span> è <span class="math display">\[ P(Z&gt;z_{\text{obs}})=P(Z&gt; 2 )= 0.02275 \]</span></p>
+   =   2 \,.
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(Z&gt;2)=0.022750 \]</span></p>
+<p><span class="math display">\[
+0.01 &lt; p_\text{value}= 0.022750 \leq 0.05
+\]</span><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-22-1.png" width="672" /></p>
+<p><strong>Rifiuto</strong> <span class="math inline">\(H_0\)</span> al 5%,</p>
+<p><span class="math inline">\(0.01&lt;p_\text{value}&lt;0.05\)</span>, <em>significativo</em> <span class="math inline">\(\fbox{*}\)</span>.</p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-195" class="example"><strong>Esempio 15.10  </strong></span>Lanciamo <span class="math inline">\(n=1000\)</span> un moneta di cui non siamo sicuri se è truccata oppure
-no. Osserviamo 600 successi su 50 lanci. Verificare al livello di
-significatività del 5% che la moneta sia bilanciata (<span class="math inline">\(\pi=0.5\)</span>), contro
+<p><span id="exm:unlabeled-div-15" class="example"><strong>Esempio 15.12  </strong></span>Lanciamo <span class="math inline">\(n=1000\)</span> un moneta di cui non siamo sicuri se è truccata oppure
+no. Osserviamo 600 successi su 50 lanci. Verificare l’ipotesi che la moneta sia bilanciata (<span class="math inline">\(\pi=0.5\)</span>), contro
 l’alternativa che sia maggiore.</p>
 <p>Lo stimatore di massima verosimiglianza è
 <span class="math display">\[\hat\pi=\frac 1 n \sum_{i=1}^n X_i\]</span></p>
+<p><strong>Test <span class="math inline">\(Z\)</span> per una proporzione</strong></p>
 <p>La stima
-<span class="math display">\[\hat\pi=\frac { 600 } { 1000 }= 0.6  \]</span> <span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\pi=\pi_0= 0.5 \\
-   H_1:\pi &gt;  \pi_0= 0.5
+<span class="math display">\[\hat\pi=\frac { 600 } { 1000 }= 0.6  \]</span></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \pi = \pi_0=0.5 \\
+   H_1: \pi &gt; \pi_0=0.5
    \end{cases}\]</span></p>
 <p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span>
-Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.
-<span class="math display">\[\begin{eqnarray*}
+Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
    \frac{\hat\pi - \pi_{0}} {\sqrt {\pi_0(1-\pi_0)/\,n}}&amp;\sim&amp;N(0,1)\\
    z_{\text{obs}}
    &amp;=&amp; \frac{ ( 0.6 -  0.5 )} {\sqrt{ 0.5 (1- 0.5 )/ 1000 }}
-   =   6.325 \, .
-   \end{eqnarray*}\]</span><span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(z_{ 0.05 } = 1.645\)</span>.
-<span class="math display">\[z_{\text{obs}} =  6.325   &gt;  z_{ 0.05 } =  1.645 \]</span>
-CONCLUSIONE: i dati non sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 5 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-177-1.png" width="672" />Il <span class="math inline">\(p_{\text{value}}\)</span> è <span class="math display">\[ P(Z&gt;z_{\text{obs}})=P(Z&gt; 6.32 )= 0.0000000001269 \]</span></p>
+   =   6.325 \,.
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(Z&gt;6.32)=1e-10 \]</span></p>
+<p><span class="math display">\[
+0 &lt; p_\text{value}= 1e-10 \leq 0.001
+\]</span><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-23-1.png" width="672" /></p>
+<p><strong>Rifiuto</strong> <span class="math inline">\(H_0\)</span> sotto all’1‰,</p>
+<p><span class="math inline">\(p_\text{value}&lt;0.001\)</span>, <em>estremamente significativo</em> <span class="math inline">\(\fbox{***}\)</span>.</p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-196" class="example"><strong>Esempio 15.11  </strong></span>In una indagine su 100 imprese, si ha che 30 imprese decentrano la
+<p><span id="exm:unlabeled-div-16" class="example"><strong>Esempio 15.13  </strong></span>In una indagine su 100 imprese, si ha che 30 imprese decentrano la
 lavorazione tipo A. Il censimento precedente aveva rilevato una
-proporzione di decentramento, <span class="math inline">\(\pi = 0.4\)</span>. Verificare l’ipotesi al LdS
-<span class="math inline">\(\alpha=0.05\)</span> che il valore osservato sia dovuto al caso, contro
+proporzione di decentramento, <span class="math inline">\(\pi = 0.4\)</span>. Verificare l’ipotesi
+che il valore osservato sia dovuto al caso, contro
 l’alternativa che vi sia stata una diminuzione della proporzione di
 decentramento.</p>
+<p><strong>Test <span class="math inline">\(Z\)</span> per una proporzione</strong></p>
 <p>La stima
-<span class="math display">\[\hat\pi=\frac { 30 } { 100 }= 0.3  \]</span> <span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\pi=\pi_0= 0.4 \\
-   H_1:\pi &lt;  \pi_0= 0.4
+<span class="math display">\[\hat\pi=\frac { 30 } { 100 }= 0.3  \]</span></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \pi = \pi_0=0.4 \\
+   H_1: \pi &lt; \pi_0=0.4
    \end{cases}\]</span></p>
 <p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span>
-Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.
-<span class="math display">\[\begin{eqnarray*}
+Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
    \frac{\hat\pi - \pi_{0}} {\sqrt {\pi_0(1-\pi_0)/\,n}}&amp;\sim&amp;N(0,1)\\
    z_{\text{obs}}
    &amp;=&amp; \frac{ ( 0.3 -  0.4 )} {\sqrt{ 0.4 (1- 0.4 )/ 100 }}
-   =   -2.041 \, .
-   \end{eqnarray*}\]</span><span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(z_{ 0.05 } = -1.645\)</span>.
-<span class="math display">\[z_{\text{obs}} =  -2.041   &lt;  z_{ 0.05 } =  -1.645 \]</span>
-CONCLUSIONE: i dati non sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 5 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-178-1.png" width="672" />Il <span class="math inline">\(p_{\text{value}}\)</span> è <span class="math display">\[ P(Z&lt;z_{\text{obs}})=P(Z&lt; -2.04 )= 0.02062 \]</span></p>
+   =   -2.041 \,.
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(Z&lt;-2.04)=0.020613 \]</span></p>
+<p><span class="math display">\[
+0.01 &lt; p_\text{value}= 0.020613 \leq 0.05
+\]</span><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-24-1.png" width="672" /></p>
+<p><strong>Rifiuto</strong> <span class="math inline">\(H_0\)</span> al 5%,</p>
+<p><span class="math inline">\(0.01&lt;p_\text{value}&lt;0.05\)</span>, <em>significativo</em> <span class="math inline">\(\fbox{*}\)</span>.</p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-197" class="example"><strong>Esempio 15.12  </strong></span>Una città è composta da 50000 soggetti. Si estrae un campione casuale di
+<p><span id="exm:unlabeled-div-17" class="example"><strong>Esempio 15.14  </strong></span>Una città è composta da 50000 soggetti. Si estrae un campione casuale di
 100 soggetti e si trova che 20 soggetti possiedono una connessione a
 banda ultra-larga. La proporzione posseduta a livello nazionale è pari
-al 25%. Verificare l’ipotesi al LdS dell’1% che nella città la
+al 25%. Verificare che nella città la
 percentuale sia diversa (in più o in meno).</p>
+<p><strong>Test <span class="math inline">\(Z\)</span> per una proporzione</strong></p>
 <p>La stima
-<span class="math display">\[\hat\pi=\frac { 20 } { 100 }= 0.2  \]</span> <span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI
-<span class="math display">\[\begin{cases}
-   H_0:\pi=\pi_0= 0.25 \\
-   H_1:\pi \neq  \pi_0= 0.25
-   \end{cases}\]</span> Siccome <span class="math inline">\(H_1\)</span> è bilaterale, considereremo <span class="math inline">\(\alpha/2\)</span>, anziché <span class="math inline">\(\alpha\)</span> <span class="math display">\[ \]</span></p>
+<span class="math display">\[\hat\pi=\frac { 20 } { 100 }= 0.2  \]</span></p>
+<p><span class="math inline">\(\fbox{A}\)</span> FORMULAZIONE DELLE IPOTESI</p>
+<p><span class="math display">\[\begin{cases}
+   H_0: \pi = \pi_0=0.25 \\
+   H_1: \pi \neq \pi_0=0.25
+   \end{cases}\]</span></p>
 <p><span class="math inline">\(\fbox{B}\)</span> SCELTA E CALCOLO STATISTICA-TEST, <span class="math inline">\(Z\)</span>
-Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.
-<span class="math display">\[\begin{eqnarray*}
+Test Binomiale per <span class="math inline">\(n\)</span> grande: <span class="math inline">\(\Rightarrow\)</span> z-Test.</p>
+<p><span class="math display">\[\begin{eqnarray*}
    \frac{\hat\pi - \pi_{0}} {\sqrt {\pi_0(1-\pi_0)/\,n}}&amp;\sim&amp;N(0,1)\\
    z_{\text{obs}}
    &amp;=&amp; \frac{ ( 0.2 -  0.25 )} {\sqrt{ 0.25 (1- 0.25 )/ 100 }}
-   =   -1.155 \, .
-   \end{eqnarray*}\]</span><span class="math inline">\(\fbox{C}\)</span> DECISIONE
-Dalle tavole si ha <span class="math inline">\(z_{ 0.005 } = -2.576\)</span>.
-<span class="math display">\[z_{\text{obs}} =  -1.155   &gt;  z_{ 0.005 } =  -2.576 \]</span>
-CONCLUSIONE: i dati sono coerenti con <span class="math inline">\(H_{0}\)</span> al LdS del 1 %</p>
-<p><strong>Graficamente</strong></p>
-<p><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-179-1.png" width="672" />Il <span class="math inline">\(p_{\text{value}}\)</span> è <span class="math display">\[ P(|Z|&gt;|z_{\text{obs}}|)=2P(Z&gt;|z_{\text{obs}}|)=2P(Z&gt;| -1.15 |)= 0.2501 \]</span></p>
+   =   -1.155 \,.
+   \end{eqnarray*}\]</span></p>
+<p><span class="math inline">\(\fbox{C}\)</span> CONCLUSIONE</p>
+<p>Il <span class="math inline">\(p_{\text{value}}\)</span> è</p>
+<p><span class="math display">\[ p_{\text{value}} = P(|Z|&gt;|-1.15|)=2P(Z&gt;1.15)=0.248213 \]</span></p>
+<p><span class="math display">\[
+0.1 &lt; p_\text{value}= 0.248213 \leq 1
+\]</span><img src="Appunti_di_Statistica_2024_files/figure-html/unnamed-chunk-25-1.png" width="672" /></p>
+<p><strong>Non</strong> rifiuto <span class="math inline">\(H_0\)</span> a <strong>nessun</strong>
+livello di significatività,</p>
+<p><span class="math inline">\(p_\text{value}&gt;0.1\)</span>,
+<em>non significativo</em></p>
 </div>
 </div>
-<div id="specchietto-finale-per-i-test-ad-un-campione" class="section level2 hasAnchor" number="15.9">
-<h2><span class="header-section-number">15.9</span> Specchietto Finale per i Test ad un Campione<a href="test-per-una-media-e-una-proporzione.html#specchietto-finale-per-i-test-ad-un-campione" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="specchietto-finale-per-i-test-ad-un-campione" class="section level2 hasAnchor" number="15.6">
+<h2><span class="header-section-number">15.6</span> Specchietto Finale per i Test ad un Campione<a href="test-per-una-media-e-una-proporzione.html#specchietto-finale-per-i-test-ad-un-campione" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div class="info2">
 <p><span class="math display">\[\begin{align*}
 \hline
